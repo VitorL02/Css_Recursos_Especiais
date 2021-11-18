@@ -1,8 +1,42 @@
+
 #caixa{
+    display: inline-block;
+  
     width: 300px;
     height: 300px;
     background: #b9c941;
     padding: 10px;
     margin: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 10px ;    /* Portabilidade para o google chrome 5.0 */
+    -moz-border-radius: 10px; /* Portabilidade para o mozila */
+    border-radius: 10px ;
+}
+
+
+#caixa2{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px; /*Acrescenta na caixa o tamanho de 340 px de Width e 340px de Height*/
+    margin: 10px;
+    -moz-border-radius: 10px 50px 80px 100px; 
+    -webkit-border-radius: 10px 50px 80px 100px; 
+   border-radius: 10px 50px 80px 100px;
+
+}
+
+
+#caixa3{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px;
+    box-sizing: border-box; /*Utilizar essa propriedade faz com que o valor de padding não seja acrescentado ao tamanho da caixa*/
+}
+.arredondamento{
+    display: block;
+    /* Metade da altura e da largura da imagem */
+    border-radius: 150px; 
 }
