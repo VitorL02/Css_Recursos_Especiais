@@ -33,6 +33,8 @@
     height: 300px;
     background: #b9c941;
     padding: 50px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box; /*Utilizar essa propriedade faz com que o valor de padding não seja acrescentado ao tamanho da caixa*/
 }
 .arredondamento{
