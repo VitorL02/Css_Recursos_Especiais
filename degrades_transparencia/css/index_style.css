@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#caixa{
+    display: inline-block;
+    background: url(../assets/camera.png) ;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+#caixa p,h1{
+
+    padding: 10px;
+}
+
+#caixa h1{
+    /* Utilizando o rgba o ultimo parametro passado e a opacidade */
+    background: rgba(255,255,255 , 0.5); 
+}
+
+
+#caixa2 {
+    display: inline-block;
+    /* Define a direção a qual o gradient vai tomar */
+    background:linear-gradient(to bottom,red, green,yellow,brown); 
+    /* background:linear-gradient(80deg,red, green); Definição utilizando graus  */
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+ 
+    margin: 10px;
+}
+
+#caixa2 p,h1{
+
+    padding: 10px;
+}
+#caix2 h1{
+    /* Utilizando o rgba o ultimo parametro passado e a opacidade */
+    background: rgba(255,255,255 , 0.5); 
+}
+
+
+
+#caixa3 {
+    display: inline-block;
+    /* Outro forma de utilizar o gradient, de dentro para fora da imagem */
+    background:radial-gradient(red, green,yellow,brown); 
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+ 
+    margin: 10px;
+}
+
+#caixa3 p,h1{
+
+    padding: 10px;
+}
+#caix3 h1{
+    /* Utilizando o rgba o ultimo parametro passado e a opacidade */
+    background: rgba(255,255,255 , 0.5); 
+}
